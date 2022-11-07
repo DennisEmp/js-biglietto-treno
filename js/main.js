@@ -30,6 +30,10 @@ else {
     totaleCorsa;
 }
 
+// max due decimali
+
+let fixedPrice = totaleCorsa.toFixed(2)
+
 // output finale, prezzo del biglietto del treno con in caso sconti applicati (arrotondare il prezzo finale con massimo due decimali)
 
-document.getElementById ("title").innerHTML = "il prezzo totale del tuo biglietto è:" + totaleCorsa;
+document.getElementById ("title").innerHTML = `il prezzo totale del tuo biglietto è: ${fixedPrice}€`
