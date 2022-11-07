@@ -15,13 +15,13 @@ let totaleCorsa = chilometri * 0.21;
 // variante minorenne con sconto 20%
 
 if (eta < 18) {
-   totaleCorsa = chilometri * 0.8;
+   totaleCorsa = totaleCorsa * 0.8;
 }
 
 // variante over 65 con sconto 40%
 
 else if (eta > 65) {
-    totaleCorsa = chilometri * 0.6;
+    totaleCorsa = totaleCorsa * 0.6;
 }
 
 // prezzo senza sconto
